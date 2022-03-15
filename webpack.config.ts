@@ -34,10 +34,11 @@ module.exports = (env = {}) => ({
     new VueLoaderPlugin(),
   ],
   devServer: {
-    inline: true,
-    hot: true,
-    stats: 'minimal',
-    contentBase: __dirname,
-    overlay: true
+    port: 80,
+    // inline: true,
+    // hot: true,
+    // stats: 'minimal',
+    // contentBase: __dirname,
+    // overlay: true
   }
 })

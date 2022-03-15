@@ -113,7 +113,9 @@
           <p></p>
         </template>
         <template #end >
-          <i class="pi pi-fw pi-home"></i>
+          <router-link to="/">
+            <i class="pi pi-fw pi-home"></i>
+          </router-link>
           <i class="pi pi-fw pi-cog"></i>
           <i class="pi pi-fw pi-circle-fill"></i>
         </template>
